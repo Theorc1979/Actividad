@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_2fc53db72cf219e20fd61969cbf4461c_marcianito_miprimer_proyecto_android"
+    tools:context="hector_corredor.myproyectoa.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton"
+        android:textColor="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="29dp"
+        app:layout_constraintHorizontal_bias="0.533" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="425dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/titulo_app"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="-13dp" />
+
+</android.support.constraint.ConstraintLayout>
